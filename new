@@ -1,0 +1,9 @@
+#!/bin/zsh
+name=$1
+mkdir $name
+newName=${name//" "/"-"}
+cd $name
+touch "$newName.js"
+cat ../template.md > "$newName.md"
+open "$newName.js"
+open "$newName.md"
