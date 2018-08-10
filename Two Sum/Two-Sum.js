@@ -4,9 +4,14 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
+    const set = new Set()
     for (let i = 0; i < nums.length; i++) {
-        for (let j = i + 1; j < nums.length; j++) {
-            if (nums[i] + nums[j] === target) return [i, j]
+        let num = target - nums[i]
+        if (set.has(num)) {
+            return [nums.indexOf(num), i]
         }
+        set.add(nums[i])
     }
 };
+
+console.log(twoSum([3, 2, 4], 6))
