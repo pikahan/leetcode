@@ -11,7 +11,6 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function(l1, l2) {
-    let weight = 1
     let ret = new ListNode(0)
     let curr = ret
     let flag = 0
@@ -23,21 +22,8 @@ var addTwoNumbers = function(l1, l2) {
         l1 = l1 ? l1.next : null
         l2 = l2 ? l2.next : null
     }
+    if (flag) {
+        curr.next = new ListNode(1)
+    }
     return ret.next
-};
-
-function ListNode(val) {
-    this.val = val
-    this.next = null
 }
-
-let l1 = new ListNode(2)
-l1.next = new ListNode(4)
-l1.next.next = new ListNode(3)
-
-let l2 = new ListNode(5)
-l2.next = new ListNode(6)
-l2.next.next = new ListNode(4)
-l2.next.next.next = new ListNode(8)
-
-console.log(addTwoNumbers(l1, l2))
