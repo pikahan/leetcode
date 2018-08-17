@@ -1,5 +1,6 @@
 #!/bin/zsh
 name=$1
+cd arithmetic
 mkdir $name
 newName=${name//" "/"-"}
 cd $name
