@@ -5,6 +5,6 @@ mkdir $name
 newName=${name//" "/"-"}
 cd $name
 touch "$newName.js"
-cat ../template.md > "$newName.md"
+cat ../../template.md > "$newName.md"
 open "$newName.js"
 open "$newName.md"
