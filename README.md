@@ -24,3 +24,4 @@
 |19|Remove Nth Node From End of List|
 |20|Valid Parentheses|
 |21|Merge Two Sorted Lists|
+|22|Generate Parentheses|
