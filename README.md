@@ -26,3 +26,4 @@
 |21|Merge Two Sorted Lists|
 |22|Generate Parentheses|
 |24|Swap Nodes in Pairs|
+|26|Remove Duplicates from Sorted Array|
