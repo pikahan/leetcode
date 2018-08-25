@@ -30,3 +30,4 @@
 |27|Remove Element|
 |28|Implement strStr()|
 |29|Divide Two Integers|
+|31|Next Permutation|
