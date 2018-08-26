@@ -31,3 +31,4 @@
 |28|Implement strStr()|
 |29|Divide Two Integers|
 |31|Next Permutation|
+|33|Search in Rotated Sorted Array|
