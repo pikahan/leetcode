@@ -38,3 +38,4 @@
 |38|Count and Say|
 |39|Combination Sum|
 |40|Combination Sum II|
+|43|Multiply Strings|
