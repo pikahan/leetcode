@@ -40,3 +40,4 @@
 |40|Combination Sum II|
 |43|Multiply Strings|
 |46|Permutations|
+|47|Permutations II|
