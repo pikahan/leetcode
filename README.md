@@ -43,3 +43,4 @@
 |47|Permutations II|
 |48|Rotate Image|
 |49|Group Anagrams|
+|50|Pow(x, n)|
